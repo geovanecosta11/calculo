@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="tela.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       <nav>
+            <div class="logo">
+                
+                <p>G</p>
+                
+            </div>
+
+           <div class="item">
+            <div class="itemtopo"><a href="index.html"  class="link1">HOME</a></div>
+             <div class="itemtopo"><a href="ferias.html"  class="link1">FERIAS</a></div>
+             <div class="itemtopo"><a href="fgts.html"class="link1">FGTS</a></div>
+             <div class="itemtopo">DÉCIMO</div>
+           </div> 
+        </nav>   
+    </header>
+
+    <main>
+    
+        <br><br>
+        <section class="container">
+            <h2>Décimo</h2>
+            <br> 
+            <p>O décimo terceiro, também conhecido como gratificação de Natal, foi instituído no país em 1962. O direito ao trabalhador foi implementado no governo João Goulart, por meio da lei nº 4.090/1962.</p>
+            <p>Como o nome sugere, ele é uma remuneração extra, que é paga no fim do ano.</p>
+           
+            <br><br>
+            <script type="text/javascript">
+                let salario = prompt(`Insira o seu atual salário`);
+                salario = Number(salario);
+                let primeiraParcela = salario/2;
+                let imposto = salario/100*9;
+                let segundaParcela = salario-imposto-primeiraParcela;
+                
+                document.write(`Salário informado: R$ ${salario}<br/>`);
+                document.write(`Primeira parcela: R$ ${primeiraParcela}<br/>`);
+                document.write(`Valor do Imposto: R$ ${imposto}<br/>`);
+                document.write(`Segunda Parcela: R$ ${segundaParcela}<br/>`);
+               
+
+             </script>
+        </section>
+
+    </main>
+
+   
+
+  
+</body>
+</html>

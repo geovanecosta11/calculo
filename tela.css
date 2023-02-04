@@ -1,0 +1,71 @@
+@media (max-width: 400px){
+  body{
+    
+  }
+  header{
+   
+    height: 80px;
+     flex-wrap: wrap;
+     width: 100vw;
+  }
+  nav{
+    display: flex;
+    gap: 10px;
+    height: 80px;
+  
+  }
+  .logo{
+    margin-left: 110px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .itemtopo{
+
+  }
+  .item{
+   
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+   .itemtopo{
+    max-width: 20px;
+    font-size: 10px;
+    text-align: center;
+   }
+ 
+}
+@media (max-width: 500px){
+
+  header{
+    background-color: black;
+    height: 150px;
+    
+  }
+  nav{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  
+  
+  }
+  .logo {
+    margin-left: 110px;
+    margin-top: 10px;
+  }
+  .itemtopo{
+    width: 30px;
+    font-size: 10px;
+
+  }
+  .item{
+  margin-top: 20px;
+    display: flex; 
+    gap: 10px;
+  }
+  section{
+    padding: 0 5px;
+  }
+ 
+}
